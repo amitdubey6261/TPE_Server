@@ -22,3 +22,5 @@ process.on('unhandledRejection' , ()=>{
         process.exit(1);
     })
 })
+
+module.exports = app ;
