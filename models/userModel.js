@@ -19,7 +19,6 @@ const userSchema = new mongoose.Schema({
     password :{
         type : String , 
         required : [ true , 'Enter Password'] , 
-        minLen : [ 4 , 'Enter password more than 4 words'] , 
         select : false ,
     } , 
     maxScore :{

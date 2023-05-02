@@ -13,7 +13,7 @@ dotenv.config({path:'./config/config.env'});
 db();
 
 const server = app.listen(process.env.PORT , ()=>{
-    console.log(`app is listening on http://localhost:${process.env.PORT}`)
+    console.log(`app is listening on http://0.0.0.0:${process.env.PORT}`)
 })
 
 process.on('unhandledRejection' , ()=>{
